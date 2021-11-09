@@ -1,37 +1,41 @@
 @import url('https://fonts.googleapis.com/css2?family=Abel&family=Anton&display=swap');
 
-*{
+* {
     box-sizing: border-box;
 }
-body{
+
+body {
     background-color: #f0f0f0;
 }
-h1{
+
+h1 {
     font-family: 'Anton', sans-serif;
-font-size: 58px;
+    font-size: 58px;
 }
 
-h2{
+h2 {
     font-family: 'Anton', sans-serif;
     font-size: 40px;
 }
-.circle{
+
+.circle {
     width: 180px;
     height: 180px;
-    border-radius: 120px ;
+    border-radius: 120px;
     background: #e6563b;
     color: white;
     text-align: center;
     line-height: 160px;
     position: relative;
-border: 10px solid white;
+    border: 10px solid white;
     font-family: 'Anton', sans-serif;
     font-size: 30px;
 }
-.circle2{
+
+.circle2 {
     width: 180px;
     height: 180px;
-    border-radius: 120px ;
+    border-radius: 120px;
     background: #EB9D3A;
     color: white;
     text-align: center;
@@ -41,10 +45,11 @@ border: 10px solid white;
     font-family: 'Anton', sans-serif;
     font-size: 30px;
 }
-.circle3{
+
+.circle3 {
     width: 180px;
     height: 180px;
-    border-radius: 120px ;
+    border-radius: 120px;
     background: #7cb06c;
     color: white;
     text-align: center;
@@ -54,10 +59,11 @@ border: 10px solid white;
     font-family: 'Anton', sans-serif;
     font-size: 30px;
 }
-.circle4{
+
+.circle4 {
     width: 180px;
     height: 180px;
-    border-radius: 120px ;
+    border-radius: 120px;
     background: #00aba9;
     color: white;
     text-align: center;
@@ -66,4 +72,51 @@ border: 10px solid white;
     border: 10px solid white;
     font-family: 'Anton', sans-serif;
     font-size: 30px;
+}
+/*bottom section*/
+.circle5 {
+    width: 18px;
+    height: 18px;
+    line-height: 18px;
+    border-radius: 50%;
+    font-size: 13px;
+    text-align: center;
+    font-family: 'Anton', sans-serif;
+    color: black;
+    margin-left: 10px;
+}
+
+.red {
+    background: #E6563B;
+
+
+}
+
+.orange {
+    background: #EB9D3A;
+
+}
+
+.green {
+    background: #7CB06C;
+
+}
+
+.blue {
+    background: #00ABA9;
+
+}
+
+.selected-work {
+    font-family: 'Abel', sans-serif;
+}
+
+img{
+
+    border: 10px solid #E6E6E6;
+ }
+
+.circlesBox {
+    padding-top: 10px;
+    padding-right: 30px;
 }
