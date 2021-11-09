@@ -1,1 +1,69 @@
-@import url('https://fonts.googleapis.com/css2?family=Abel&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Abel&family=Anton&display=swap');
+
+*{
+    box-sizing: border-box;
+}
+body{
+    background-color: #f0f0f0;
+}
+h1{
+    font-family: 'Anton', sans-serif;
+font-size: 58px;
+}
+
+h2{
+    font-family: 'Anton', sans-serif;
+    font-size: 40px;
+}
+.circle{
+    width: 180px;
+    height: 180px;
+    border-radius: 120px ;
+    background: #e6563b;
+    color: white;
+    text-align: center;
+    line-height: 160px;
+    position: relative;
+border: 10px solid white;
+    font-family: 'Anton', sans-serif;
+    font-size: 30px;
+}
+.circle2{
+    width: 180px;
+    height: 180px;
+    border-radius: 120px ;
+    background: #EB9D3A;
+    color: white;
+    text-align: center;
+    line-height: 160px;
+    position: relative;
+    border: 10px solid white;
+    font-family: 'Anton', sans-serif;
+    font-size: 30px;
+}
+.circle3{
+    width: 180px;
+    height: 180px;
+    border-radius: 120px ;
+    background: #7cb06c;
+    color: white;
+    text-align: center;
+    line-height: 160px;
+    position: relative;
+    border: 10px solid white;
+    font-family: 'Anton', sans-serif;
+    font-size: 30px;
+}
+.circle4{
+    width: 180px;
+    height: 180px;
+    border-radius: 120px ;
+    background: #00aba9;
+    color: white;
+    text-align: center;
+    line-height: 160px;
+    position: relative;
+    border: 10px solid white;
+    font-family: 'Anton', sans-serif;
+    font-size: 30px;
+}
