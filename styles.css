@@ -1,16 +1,48 @@
 @import url('https://fonts.googleapis.com/css2?family=Abel&family=Anton&display=swap');
 
 * {
+
     box-sizing: border-box;
 }
 
 body {
     background-color: #f0f0f0;
 }
+ /*---- START NAVIGATION SECTION ---- */
+.nav-logo{
+    max-width: 43%;
+    height: auto;
+}
+
+.whiteLine{
+    width: 100%;
+    height: 110px;
+    top: 65px;
+    left: 0;
+    background-color: white;
+    position: absolute;
+    z-index: -5;
+}
+.nav-heading{
+    font-family: 'Abel', sans-serif;
+    font-size: 60px;
+    letter-spacing: -1px;
+}
+
+a{
+    font-family: 'Abel', sans-serif;
+    font-size: 22px;
+    color: dimgray;
+}
+
+/*END OF NAVIGATION*/
+.middleSection{
+    padding-bottom: 120px;
+}
 
 h1 {
     font-family: 'Anton', sans-serif;
-    font-size: 58px;
+    color: black;
 }
 
 h2 {
@@ -18,66 +50,67 @@ h2 {
     font-size: 40px;
 }
 
+
 .circle {
-    width: 180px;
-    height: 180px;
+    width: 200px;
+    height: 200px;
     border-radius: 120px;
     background: #e6563b;
     color: white;
     text-align: center;
-    line-height: 160px;
+    line-height: 170px;
     position: relative;
     border: 10px solid white;
     font-family: 'Anton', sans-serif;
-    font-size: 30px;
+    font-size: 40px;
 }
 
 .circle2 {
-    width: 180px;
-    height: 180px;
+    width: 200px;
+    height: 200px;
     border-radius: 120px;
     background: #EB9D3A;
     color: white;
     text-align: center;
-    line-height: 160px;
+    line-height: 170px;
     position: relative;
     border: 10px solid white;
     font-family: 'Anton', sans-serif;
-    font-size: 30px;
+    font-size: 40px;
 }
 
 .circle3 {
-    width: 180px;
-    height: 180px;
+    width: 200px;
+    height: 200px;
     border-radius: 120px;
     background: #7cb06c;
     color: white;
     text-align: center;
-    line-height: 160px;
+    line-height: 180px;
     position: relative;
     border: 10px solid white;
     font-family: 'Anton', sans-serif;
-    font-size: 30px;
+    font-size: 40px;
 }
 
 .circle4 {
-    width: 180px;
-    height: 180px;
+    width: 200px;
+    height: 200px;
     border-radius: 120px;
     background: #00aba9;
     color: white;
     text-align: center;
-    line-height: 160px;
+    line-height: 180px;
     position: relative;
     border: 10px solid white;
     font-family: 'Anton', sans-serif;
-    font-size: 30px;
+    font-size: 40px;
 }
 /*bottom section*/
 .circle5 {
-    width: 18px;
-    height: 18px;
-    line-height: 18px;
+    width: 26px;
+    height: 26px;
+    line-height: 26px;
     border-radius: 50%;
     font-size: 13px;
     text-align: center;
@@ -109,11 +142,14 @@ h2 {
 
 .selected-work {
     font-family: 'Abel', sans-serif;
+    padding-top: 20px;
 }
 
-img{
-
+/*This used to img but changed it because it was messing with the logo img in the navigation*/
+.apple-ipad{
     border: 10px solid #E6E6E6;
+    min-width: 30%;
+
  }
 
 .circlesBox {
