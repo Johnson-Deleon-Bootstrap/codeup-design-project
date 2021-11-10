@@ -108,9 +108,9 @@ h2 {
 }
 /*bottom section*/
 .circle5 {
-    width: 26px;
-    height: 26px;
-    line-height: 26px;
+    width: 18px;
+    height: 18px;
+    line-height: 18px;
     border-radius: 50%;
     font-size: 13px;
     text-align: center;
@@ -143,6 +143,7 @@ h2 {
 .selected-work {
     font-family: 'Abel', sans-serif;
     padding-top: 20px;
+    padding-bottom: 20px;
 }
 
 /*This used to img but changed it because it was messing with the logo img in the navigation*/
