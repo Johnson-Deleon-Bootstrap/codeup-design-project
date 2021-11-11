@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Abel&family=Anton&display=swap');
 
+
 * {
 
     box-sizing: border-box;
@@ -57,68 +58,72 @@ h2 {
  }
 
 .circle {
-    width: 200px;
-    height: 200px;
+    width: 105px;
+    height: 105px;
     border-radius: 120px;
     background: #e6563b;
     color: white;
     text-align: center;
-    line-height: 170px;
+    line-height: 4.5em;
     position: relative;
     border: 10px solid white;
     font-family: 'Anton', sans-serif;
-    font-size: 40px;
+    font-size: 20px;
     margin-right: 5px;
     margin-left: 5px;
+
 
 }
 
 .circle2 {
-    width: 200px;
-    height: 200px;
+    width: 105px;
+    height: 105px;
     border-radius: 120px;
     background: #EB9D3A;
     color: white;
     text-align: center;
-    line-height: 170px;
+    line-height: 4.5em;
     position: relative;
     border: 10px solid white;
     font-family: 'Anton', sans-serif;
-    font-size: 40px;
+    font-size: 20px;
     margin-right: 5px;
     margin-left: 5px;
+
 }
 
 .circle3 {
-    width: 200px;
-    height: 200px;
+    width: 105px;
+    height: 105px;
     border-radius: 120px;
     background: #7cb06c;
     color: white;
     text-align: center;
-    line-height: 180px;
+    line-height: 4.5em;
     position: relative;
     border: 10px solid white;
     font-family: 'Anton', sans-serif;
-    font-size: 40px;
+    font-size: 20px;
     margin-right: 5px;
     margin-left: 5px;
+
 }
 
 .circle4 {
-    width: 200px;
-    height: 200px;
+    width: 105px;
+    height: 105px;
     border-radius: 120px;
     background: #00aba9;
     color: white;
     text-align: center;
-    line-height: 180px;
+    line-height: 4.5em;
     position: relative;
     border: 10px solid white;
     font-family: 'Anton', sans-serif;
-    font-size: 40px;
+    font-size: 20px;
     margin-right: 5px;
     margin-left: 5px;
+
 
 }
 /*bottom section*/
@@ -173,13 +178,25 @@ h2 {
     padding-top: 10px;
     padding-right: 30px;
 }
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    .circle, .circle3 {
+        margin-top: 5px;
+        margin-bottom: 5px;
+        float: right;
+
+    }
+    .circle2, .circle4 {
+        margin-top: 5px;
+        margin-bottom: 5px;
+    }
+}
 
 /*// Small devices (landscape phones, 576px and up)*/
-@media (max-width: 576px) {
+@media (min-width: 600px) {
 
     .circle, .circle2, .circle3, .circle4{
-        display: flex;
-        justify-content: space-between;
+
 
     }
 }
