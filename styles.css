@@ -184,34 +184,55 @@ h2 {
         margin-top: 5px;
         margin-bottom: 5px;
         float: right;
-
     }
     .circle2, .circle4 {
         margin-top: 5px;
         margin-bottom: 5px;
     }
+
+
 }
 
 /*// Small devices (landscape phones, 576px and up)*/
 @media (min-width: 600px) {
-
-    .circle, .circle2, .circle3, .circle4{
-
+    .apple-ipad {
+        border: 10px solid #E6E6E6;
+        min-width: 30%;
 
     }
+
+    .man {
+        border: 10px solid #E6E6E6;
+        min-width: 30%;
+
+    }
+
+    .macbook {
+        border: 10px solid #E6E6E6;
+        min-width: 30%;
+
+    }
+
+    .security {
+        border: 10px solid #E6E6E6;
+        min-width: 30%;
+
+    }
+
+
 }
 
-/*// Medium devices (tablets, 768px and up)*/
-@media (min-width: 768px) {
+    /*// Medium devices (tablets, 768px and up)*/
+    @media (min-width: 768px) {
 
-}
+    }
 
-/*// Large devices (desktops, 992px and up)*/
-@media (min-width: 992px) {
+    /*// Large devices (desktops, 992px and up)*/
+    @media (min-width: 992px) {
 
-}
+    }
 
-/*// Extra large devices (large desktops, 1200px and up)*/
-@media (min-width: 1200px) {
+    /*// Extra large devices (large desktops, 1200px and up)*/
+    @media (min-width: 1200px) {
 
-}
+    }
