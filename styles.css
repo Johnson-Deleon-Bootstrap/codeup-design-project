@@ -193,6 +193,9 @@ h2 {
     font-family: 'Anton', sans-serif;
     color: black;
     margin-left: 10px;
+
+
+
 }
 
 
@@ -233,6 +236,7 @@ h2 {
 .circlesBox {
     padding-top: 10px;
     padding-right: 30px;
+    flex-wrap: nowrap;
 }
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
@@ -274,24 +278,20 @@ h2 {
         min-width: 30%;
 
     }
-
+    .popUps {
+        font-family: 'Anton', sans-serif;
+        word-wrap: break-word;
+    }
+    .tweet {
+        position: relative;
+    }
 
 }
-
     /*// Medium devices (tablets, 768px and up)*/
     @media (min-width: 768px) {
 
     }
 
-    /*// Large devices (desktops, 992px and up)*/
-    @media (min-width: 992px) {
-
-    }
-
-    /*// Extra large devices (large desktops, 1200px and up)*/
-    @media (min-width: 1200px) {
-
-    }
 .container {
     display: flex;
     flex-wrap: wrap;
