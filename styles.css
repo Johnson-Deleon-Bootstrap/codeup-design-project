@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Abel&family=Anton&display=swap');
 
+
 * {
 
     box-sizing: border-box;
@@ -9,32 +10,88 @@ body {
     background-color: #f0f0f0;
 }
  /*---- START NAVIGATION SECTION ---- */
-.nav-logo{
-    max-width: 43%;
-    height: auto;
-}
 
-.whiteLine{
+
+.xs-nav-logo{
+    max-height: calc(23vh - 6vw);
+    position: relative;
+    z-index:5;
+}
+.sm-nav-logo{
+    max-width: 12vh;
+    position: relative;
+    margin-top: -40px;
+}
+.md-nav-logo{
+    max-height: 105px;
+    position: relative;
+    z-index: 5;
+}
+.nav-item {
+    font-family: 'Abel', sans-serif;
+    font-size: 28px;
+    padding-top: 2vw;
+
+    z-index: 5;
+}
+.medium-nav{
+    margin-left: 20px;
+}
+.md-nav-item{
+    font-family: 'Abel', sans-serif;
+    font-size: 18px;
+    z-index: 5;
+}
+.xs-nav-heading{
+    font-family: 'Abel', sans-serif;
+    font-size: 46px;
+    margin-bottom: -5px;
+}
+.sm-nav-heading{
+    font-family: 'Abel', sans-serif;
+    font-size: 4vh;
+    white-space: nowrap;
+}
+.md-nav-heading{
+    font-family: 'Abel', sans-serif;
+    font-weight: normal;
+    font-size:4vh;
+    margin-top: 28px;
+    z-index: 5;
+    white-space: nowrap;
+}
+.lineLogo{
+    z-index: 5;
+}
+.nav{
+    margin-top: 40px;
+}
+/*--THe WHITE LINE--*/
+.xs-whiteLine{
+    height:7vh;
     width: 100%;
-    height: 110px;
-    top: 65px;
-    left: 0;
     background-color: white;
     position: absolute;
-    z-index: -5;
+    top: 6vh;
+    z-index: 1;
 }
-.nav-heading{
-    font-family: 'Abel', sans-serif;
-    font-size: 60px;
-    letter-spacing: -1px;
+.sm-whiteLine{
+    height: 6vh;
+    width: 100%;
+    background-color: white;
+    position: absolute;
+    top: 6vh;
+    z-index: 1;
 }
-
-a{
-    font-family: 'Abel', sans-serif;
-    font-size: 22px;
-    color: dimgray;
+.md-whiteLine{
+    height: 7vh;
+    width: 200%;
+    background-color: white;
+    position: absolute;
+    top: 35px;
+    z-index: 1;
 }
-
+/*-- END OF NAVIGATION --*/
 /*END OF NAVIGATION*/
 .middleSection{
     padding-bottom: 120px;
@@ -49,64 +106,113 @@ h2 {
     font-family: 'Anton', sans-serif;
     font-size: 40px;
 }
+ .middleCircles {
+     margin-left: 20px;
+     margin-right: 20px;
+     justify-content: center;
 
+ }
 
 .circle {
+<<<<<<< HEAD
     width: 200px;
     height: 200px;
     border-radius: 50%;
+=======
+    width: 105px;
+    height: 105px;
+    border-radius: 120px;
+>>>>>>> 9c24c2c477e419753f55a5febcccda3301f8f28a
     background: #e6563b;
     color: white;
     text-align: center;
-    line-height: 170px;
+    line-height: 4.5em;
     position: relative;
     border: 10px solid white;
     font-family: 'Anton', sans-serif;
+<<<<<<< HEAD
     font-size: 40px;
+=======
+    font-size: 20px;
+    margin-right: 5px;
+    margin-left: 5px;
+
+>>>>>>> 9c24c2c477e419753f55a5febcccda3301f8f28a
 
 }
 
 .circle2 {
+<<<<<<< HEAD
     width: 200px;
     height: 200px;
     border-radius: 50%;
+=======
+    width: 105px;
+    height: 105px;
+    border-radius: 120px;
+>>>>>>> 9c24c2c477e419753f55a5febcccda3301f8f28a
     background: #EB9D3A;
     color: white;
     text-align: center;
-    line-height: 170px;
+    line-height: 4.5em;
     position: relative;
     border: 10px solid white;
     font-family: 'Anton', sans-serif;
-    font-size: 40px;
+    font-size: 20px;
+    margin-right: 5px;
+    margin-left: 5px;
+
 }
 
 .circle3 {
+<<<<<<< HEAD
     width: 200px;
     height: 200px;
     border-radius: 50%;
+=======
+    width: 105px;
+    height: 105px;
+    border-radius: 120px;
+>>>>>>> 9c24c2c477e419753f55a5febcccda3301f8f28a
     background: #7cb06c;
     color: white;
     text-align: center;
-    line-height: 180px;
+    line-height: 4.5em;
     position: relative;
     border: 10px solid white;
     font-family: 'Anton', sans-serif;
+<<<<<<< HEAD
     font-size: 40px;
+=======
+    font-size: 20px;
+    margin-right: 5px;
+    margin-left: 5px;
+>>>>>>> 9c24c2c477e419753f55a5febcccda3301f8f28a
 
 }
 
 .circle4 {
+<<<<<<< HEAD
     width: 200px;
     height: 200px;
     border-radius: 50%;
+=======
+    width: 105px;
+    height: 105px;
+    border-radius: 120px;
+>>>>>>> 9c24c2c477e419753f55a5febcccda3301f8f28a
     background: #00aba9;
     color: white;
     text-align: center;
-    line-height: 180px;
+    line-height: 4.5em;
     position: relative;
     border: 10px solid white;
     font-family: 'Anton', sans-serif;
-    font-size: 40px;
+    font-size: 20px;
+    margin-right: 5px;
+    margin-left: 5px;
+
+
 }
 /*bottom section*/
 .circle5 {
@@ -160,3 +266,61 @@ h2 {
     padding-top: 10px;
     padding-right: 30px;
 }
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    .circle, .circle3 {
+        margin-top: 5px;
+        margin-bottom: 5px;
+        float: right;
+    }
+    .circle2, .circle4 {
+        margin-top: 5px;
+        margin-bottom: 5px;
+    }
+
+
+}
+
+/*// Small devices (landscape phones, 576px and up)*/
+@media (min-width: 600px) {
+    .apple-ipad {
+        border: 10px solid #E6E6E6;
+        min-width: 30%;
+
+    }
+
+    .man {
+        border: 10px solid #E6E6E6;
+        min-width: 30%;
+
+    }
+
+    .macbook {
+        border: 10px solid #E6E6E6;
+        min-width: 30%;
+
+    }
+
+    .security {
+        border: 10px solid #E6E6E6;
+        min-width: 30%;
+
+    }
+
+
+}
+
+    /*// Medium devices (tablets, 768px and up)*/
+    @media (min-width: 768px) {
+
+    }
+
+    /*// Large devices (desktops, 992px and up)*/
+    @media (min-width: 992px) {
+
+    }
+
+    /*// Extra large devices (large desktops, 1200px and up)*/
+    @media (min-width: 1200px) {
+
+    }
