@@ -10,31 +10,87 @@
 
 
 <!-------Start of navigation - NG  ------->
-<section>
-    <nav class="navbar pt-3 pd-5">
-        <img src="assets/logo.png" class="nav-logo img-fluid mx-auto" alt="Nav-Logo">
-        <!--------  The Magical White Line  ------>
-        <div class="whiteLine"></div>
-        <!--------  Navigation Heading  ------>
-        <h2 class="nav-heading col-12 text-center py-2">codeup design</h2>
-        <!--------  The Anchor Points  ------>
-        <ul class="nav text-uppercase mx-auto font-weight-light my-2">
-            <li class="nav-item">
-                <a class="nav-link text-dark" href="#">Services</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link text-dark " href="#">Work</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link text-dark" href="#">Blog</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link text-dark">contact</a>
-            </li>
-        </ul>
+
+    <nav class="xs-navbar mx-auto py-3">
+        <!--------  The White Line  ------>
+        <div class="xs-whiteLine d-block d-sm-none"></div>
+        <div class="sm-whiteLine d-none d-sm-block d-md-none"></div>
+        <div class="md-whiteLine d-none d-md-block"></div>
+        <div class=" justify-content-center container-lg row block-nowrap">
+            <!--------  The Logo & heading     justify-content-right------>
+            <div class="col-6">
+                <!--  XS S -->
+                <div class="d-block  d-sm-none text-center">
+                    <img src="assets/logo.png" class="xs-nav-logo mx-auto " alt="Nav-Logo">
+                    <h2 class="xs-nav-heading text-center pt-2 flex-nowrap">codeup design</h2>
+                </div>
+                <!--  medium above -->
+                <div class=" d-none d-md-flex float-left">
+                    <img src="assets/logo.png" class="md-nav-logo" alt="Nav-Logo">
+                    <h2 class="md-nav-heading ml-3 font-weight-lighter flex-nowrap">codeup design</h2>
+                </div>
+            </div>
+            <!--------  The Anchors  ------>
+            <!--THis is the navigation for MD,LG,XL-->
+            <div class="col-fill ">
+                <ul class="nav medium-nav text-uppercase font-weight-light flex-nowrap d-none d-md-flex">
+                    <li class="md-nav-item">
+                        <a class="nav-link text-dark" href="#">Services</a>
+                    </li>
+                    <li class="md-nav-item">
+                        <a class="nav-link text-dark " href="#">Work</a>
+                    </li>
+                    <li class="md-nav-item">
+                        <a class="nav-link text-dark" href="#">Blog</a>
+                    </li>
+                    <li class="md-nav-item">
+                        <a class="nav-link text-dark">contact</a>
+                    </li>
+                </ul>
+            </div>
+            <!---End of the navigation for MD,LG,XL-->
+            <!--THis is the navigation for S-->
+            <ul class="nav text-uppercase font-weight-light flex-nowrap d-none d-sm-flex d-md-none">
+                <li class="nav-item">
+                    <a class="nav-link text-dark" href="#">Services</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-dark " href="#">Work</a>
+                </li>
+                <div class="lineLogo  mt-3 d-none d-sm-block d-md-none">
+                    <!--------  The Logo  ------>
+                    <img src="assets/logo.png" class="sm-nav-logo mx-auto d-block" alt="Nav-Logo">
+                    <!--------  Navigation Heading  ------>
+                    <h2 class="sm-nav-heading text-lowercase text-center font-weight-light py-2">codeup design</h2>
+                </div>
+                <li class="nav-item">
+                    <a class="nav-link text-dark" href="#">Blog</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-dark">contact</a>
+                </li>
+            </ul>
+            <!---End of the navigation for,S -->
+            <!--THis is the navigation for XS-->
+            <ul class="nav text-uppercase font-weight-light flex-nowrap d-flex d-sm-none">
+                <li class="nav-item">
+                    <a class="nav-link text-dark" href="#">Services</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-dark " href="#">Work</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-dark" href="#">Blog</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-dark">contact</a>
+                </li>
+            </ul>
+            <!---End of the navigation for XS -->
+        </div>
     </nav>
-</section>
-<!--END of NAVIGATION-->
+<!---------END of NAVIGATION---------->
+
 <!-----------       middle section  ----------->
 <div class="container pt-5">
     <section class="middleSection">
